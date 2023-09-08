@@ -1,0 +1,95 @@
+body {
+    height: 100vh;
+    border: solid grey;
+
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #990000;
+    color: #edebeb;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 15px;
+}
+
+header img {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 50px;
+    height: auto;
+}
+
+nav {
+    background-color: #edebeb;
+    color: #990000;
+    width: 100%;
+}
+
+.wrapper {
+    padding: 3px;
+}
+
+.contents {
+    position: absolute;
+    top: 150px;
+    border-top: 10px dashed #990000;
+    width: 100%;
+}
+
+.articles {
+    width: 60%;
+    background-color:#edebeb;
+    border: 2px solid #990000;
+    margin-top: 15px;
+}
+
+article {
+    width: 90%;
+    height: 45%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border: 5px solid grey;
+    border-radius: 15px;
+}
+
+aside {
+    position: absolute;
+    top: 5px;
+    left: 65%;
+    width: 30%;
+    background-color: #edebeb;
+    border: 2px solid #990000;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+footer {
+    position: absolute;
+    bottom: 2px;
+    width: 100%;
+    background-color: #edebeb;
+    color: #990000;
+    text-align: center;
+}
+
+
+/* additional class for tag */
+.institutes {
+    position: absolute;
+    top: 250px;
+    left: 65%;
+    width: 30%;
+    background-color: #edebeb;
+    border: 5px double #990000;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 5px;
+
+}
